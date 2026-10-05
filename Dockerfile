@@ -2,6 +2,7 @@ FROM python:3.7
 
 WORKDIR /app
 
+# hadolint ignore=DL3008
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         gcc \
