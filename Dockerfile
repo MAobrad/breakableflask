@@ -1,3 +1,5 @@
+# Dockerfile de l'application Breakable Flask
+
 FROM python:3.7
 
 WORKDIR /app
